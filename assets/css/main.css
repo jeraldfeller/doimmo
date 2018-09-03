@@ -1,0 +1,74 @@
+.loader {
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #3498db;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin .8s linear infinite; /* Safari */
+    animation: spin .8s linear infinite;
+    margin: auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.filter-row{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.table-row{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.sort{
+    cursor: pointer;
+}
+
+.spacer{
+    margin-top: 24px;
+}
+
+[contenteditable]:focus {
+    outline: 0px solid transparent;
+}
+
+.render-chart{
+     color: #007bff;
+     text-decoration: none;
+     background-color: transparent;
+     cursor: pointer;
+ }
+
+.display-none{
+    display: none;
+}
+
+.add-comment{
+    color: #555555;
+    font-size: .9em;
+}
+
+.table-gray{
+    background-color: rgba(66,66,66,.75);
+}
+
+.ch-lg{
+    vertical-align: middle;
+    width: 20px;
+    height:20px;
+}
+
+.slider{
+    width: 100% !important;
+}
+
+.slider-selection {
+    background: #007bff;
+}
+
+.full-width{
+    width: 100%;
+}
